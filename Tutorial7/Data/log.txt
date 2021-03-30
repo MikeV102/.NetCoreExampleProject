@@ -1,0 +1,337 @@
+
+Log Entry : 18:07:09 piątek, 10 kwietnia 2020
+  :
+  :GET
+  :/api/students
+  :
+  :
+-------------------------------
+
+Log Entry : 18:07:09 piątek, 10 kwietnia 2020
+  :
+  :GET
+  :/favicon.ico
+  :
+  :
+-------------------------------
+
+Log Entry : 18:07:27 piątek, 10 kwietnia 2020
+  :
+  :POST
+  :/api/students/promote
+  :
+  :{
+	"Semester": 4,
+	"Studies": "IT"
+}
+-------------------------------
+
+Log Entry : 18:07:39 piątek, 10 kwietnia 2020
+  :
+  :POST
+  :/api/students/promote
+  :
+  :{
+	"Semester": 4,
+	"Studies": "IT"
+}
+-------------------------------
+
+Log Entry : 18:08:50 piątek, 10 kwietnia 2020
+  :
+  :Method: GET
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: 
+-------------------------------
+
+Log Entry : 18:08:50 piątek, 10 kwietnia 2020
+  :
+  :Method: GET
+  :EndPoint: /favicon.ico
+  :QueryString: 
+  :Body: 
+-------------------------------
+
+Log Entry : 18:09:06 piątek, 10 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students/promote
+  :QueryString: 
+  :Body: {
+	"Semester": 4,
+	"Studies": "IT"
+}
+-------------------------------
+
+Log Entry : 18:09:30 piątek, 10 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students/promote
+  :QueryString: ?xd=f
+  :Body: {
+	"Semester": 4,
+	"Studies": "IT"
+}
+-------------------------------
+
+Log Entry : 10:59:53 czwartek, 23 kwietnia 2020
+  :
+  :Method: GET
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: 
+-------------------------------
+
+Log Entry : 10:59:55 czwartek, 23 kwietnia 2020
+  :
+  :Method: GET
+  :EndPoint: /favicon.ico
+  :QueryString: 
+  :Body: 
+-------------------------------
+
+Log Entry : 11:00:23 czwartek, 23 kwietnia 2020
+  :
+  :Method: GET
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: 
+-------------------------------
+
+Log Entry : 11:00:24 czwartek, 23 kwietnia 2020
+  :
+  :Method: GET
+  :EndPoint: /favicon.ico
+  :QueryString: 
+  :Body: 
+-------------------------------
+
+Log Entry : 11:01:33 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: {
+	"Login": "mrMe",
+	"Password": "sthLongAndSecure"
+}
+-------------------------------
+
+Log Entry : 11:02:29 czwartek, 23 kwietnia 2020
+  :
+  :Method: GET
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: 
+-------------------------------
+
+Log Entry : 11:04:49 czwartek, 23 kwietnia 2020
+  :
+  :Method: GET
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: 
+-------------------------------
+
+Log Entry : 11:04:55 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: {
+	"Login": "mrMe",
+	"Password": "sthLongAndSecure"
+}
+-------------------------------
+
+Log Entry : 11:06:49 czwartek, 23 kwietnia 2020
+  :
+  :Method: GET
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: 
+-------------------------------
+
+Log Entry : 11:06:49 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students/login
+  :QueryString: 
+  :Body: {
+	"Login": "mrMe",
+	"Password": "sthLongAndSecure"
+}
+-------------------------------
+
+Log Entry : 11:06:54 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students/login
+  :QueryString: 
+  :Body: {
+	"Login": "mrMe",
+	"Password": "sthLongAndSecure"
+}
+-------------------------------
+
+Log Entry : 11:07:05 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students/login
+  :QueryString: 
+  :Body: {
+	"Login": "mrMe",
+	"Password": "sthLongAndSecure"
+}
+-------------------------------
+
+Log Entry : 11:07:48 czwartek, 23 kwietnia 2020
+  :
+  :Method: GET
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: 
+-------------------------------
+
+Log Entry : 11:07:49 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students/login
+  :QueryString: 
+  :Body: {
+	"Login": "mrMe",
+	"Password": "sthLongAndSecure"
+}
+-------------------------------
+
+Log Entry : 11:07:55 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students/
+  :QueryString: 
+  :Body: {
+	"Login": "mrMe",
+	"Password": "sthLongAndSecure"
+}
+-------------------------------
+
+Log Entry : 11:08:08 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students/login
+  :QueryString: 
+  :Body: {
+	"Login": "mrMe",
+	"Password": "sthLongAndSecure"
+}
+-------------------------------
+
+Log Entry : 11:11:51 czwartek, 23 kwietnia 2020
+  :
+  :Method: GET
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: 
+-------------------------------
+
+Log Entry : 11:11:55 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students/login
+  :QueryString: 
+  :Body: {
+	"Login": "mrMe",
+	"Password": "sthLongAndSecure"
+}
+-------------------------------
+
+Log Entry : 11:12:33 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students/login
+  :QueryString: 
+  :Body: {
+	"login": "login",
+	"password": "Password"
+}
+-------------------------------
+
+Log Entry : 11:12:34 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students/login
+  :QueryString: 
+  :Body: {
+	"login": "login",
+	"password": "Password"
+}
+-------------------------------
+
+Log Entry : 11:12:43 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students/login
+  :QueryString: 
+  :Body: {
+	"login": "login",
+	"password": "Password"
+}
+-------------------------------
+
+Log Entry : 11:16:13 czwartek, 23 kwietnia 2020
+  :
+  :Method: GET
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: 
+-------------------------------
+
+Log Entry : 11:16:54 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: {
+	"login": "login",
+	"password": "Password"
+}
+-------------------------------
+
+Log Entry : 11:30:21 czwartek, 23 kwietnia 2020
+  :
+  :Method: GET
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: 
+-------------------------------
+
+Log Entry : 11:30:25 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: {
+	"login": "login",
+	"password": "Password"
+}
+-------------------------------
+
+Log Entry : 11:32:15 czwartek, 23 kwietnia 2020
+  :
+  :Method: GET
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: 
+-------------------------------
+
+Log Entry : 11:33:26 czwartek, 23 kwietnia 2020
+  :
+  :Method: POST
+  :EndPoint: /api/students
+  :QueryString: 
+  :Body: {
+	"login": "login",
+	"password": "Password"
+}
+-------------------------------

@@ -1,0 +1,34 @@
+ALTER PROCEDURE  Promote @StudiesName VARCHAR(100), @Semester INT, @myOut INT OUTPUT
+AS
+BEGIN
+
+	DECLARE @IdStudies INT = (SELECT IdStudy FROM Studies WHERE [Name] = @StudiesName);
+
+	IF @IdStudies IS NULL
+		BEGIN
+			RAISERROR('studies do not exist',1,1);
+		END
+
+	DECLARE @IdNextEnrollment INT = (SELECT IdEnrollment FROM Enrollment 
+									WHERE IdStudy= @IdStudies AND Semester = @Semester + 1);
+
+
+	DECLARE @LastEnrollment INT = (SELECT TOP 1 IdEnrollment FROM Enrollment ORDER BY IdEnrollment DESC); -- finding last enrollment id in order to insert new records
+
+
+
+	IF @IdNextEnrollment IS NULL
+	BEGIN
+		INSERT INTO Enrollment(IdEnrollment,Semester,IdStudy,StartDate)
+		VALUES (@LastEnrollment + 1,@Semester+1,@IdStudies,GETDATE());
+
+		SET @IdNextEnrollment = @LastEnrollment + 1;
+
+	END
+
+	UPDATE Student SET
+	IdEnrollment = @IdNextEnrollment
+	WHERE IdEnrollment = (SELECT IdEnrollment FROM Enrollment WHERE Semester = @Semester AND IdStudy = @IdStudies);
+
+	SET @myOut = @IdNextEnrollment;
+END;
